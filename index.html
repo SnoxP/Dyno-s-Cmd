@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dyno Tag Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              discord: {
+                bg: '#313338',
+                sidebar: '#2b2d31',
+                element: '#383a40',
+                hover: '#3f4147',
+                text: '#dbdee1',
+                muted: '#949ba4',
+                input: '#383a40',
+                blue: '#5865F2',
+                green: '#23a559',
+                red: '#da373c',
+                brand: '#3498db', // Dyno blue
+                embed: '#2b2d31'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Discord Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        background-color: #2b2d31;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #1a1b1e;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-track {
+        background-color: #2b2d31;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@0.263.1",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react": "https://esm.sh/react@18.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-discord-bg text-discord-text overflow-hidden">
+    <div id="root"></div>
+  </body>
+</html>

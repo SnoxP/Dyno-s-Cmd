@@ -1,0 +1,5 @@
+{
+  "name": "Dyno Tag Simulator",
+  "description": "A Discord-styled web application simulating the Dyno bot tag system (create, get, edit, delete) with markdown rendering.",
+  "requestFramePermissions": []
+}
